@@ -18,5 +18,12 @@ public class divisor {
 
     public static void main(String[] args) {
         divisor d = new divisor();
+
+        d.solution(0);
+        d.solution(1);
+        d.solution(2);
+        d.solution(3);
+        d.solution(4);
+        d.solution(12);
     }
 }
