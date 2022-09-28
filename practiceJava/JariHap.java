@@ -9,7 +9,9 @@ public class JariHap {
 		for (char jar : jari) {
 			
 			System.out.println(jar);
-			hap +=(int)jar;
+			
+			
+			hap +=(int)jar-48;
 		}
 		
 		System.out.println(hap); // 왜 안될까.. ㅠ 도와줘~~~
