@@ -1,5 +1,8 @@
 package practiceJava;
+
 import java.util.Arrays;
+
+
 public class ArrayReverse {
 	 public int[] solution(long n) {
 	        int x = 0;
@@ -26,5 +29,6 @@ public class ArrayReverse {
 		ArrayReverse ar = new ArrayReverse();
 		System.out.println(Arrays.toString(ar.solution(-123)));
 		System.out.println(Arrays.toString(ar.solution(12311)));
+		
 	}
 }
