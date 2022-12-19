@@ -5,18 +5,18 @@ public class Babbling {
         for (String str : babbling) {
             if (str.contains("woowoo") || str.contains("ayaaya") || str.contains("mama") || str.contains("yeye"))
                 continue;
+
             str = str.replace("woo", " ");
             str = str.replace("aya", " ");
             str = str.replace("ye", " ");
             str = str.replace("ma", " ");
             str = str.replace(" ", "");
+
             if (str.equals("")) {
                 answer++;
             }
-
         }
         return answer;
-
     }
 
     public static void main(String[] args) {
