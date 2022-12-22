@@ -1,7 +1,5 @@
 import java.util.Arrays;
 
-import javax.swing.event.SwingPropertyChangeSupport;
-
 class Strange {
     public String solution(String st) {
         int cnt = 0;
